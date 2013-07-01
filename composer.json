@@ -1,0 +1,35 @@
+{
+    "name": "Ana",
+    "description": "ORM/Migrations",
+    "authors": [
+        {
+            "name": "Tomasz Żełudziewicz",
+            "email": "ofca@emve.org"
+        }
+    ],
+    "repositories": [{
+        "type": "package",
+        "package": {
+            "name": "cabinet",
+            "version": "dev-master",
+            "source": {
+                "url": "https://github.com/ofca/Cabinet",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+                "classmap": ["classes"]
+            }
+        }
+    }],
+    "require": {
+        "cabinet": "dev-master"
+    },
+    "autoload": {
+		"psr-0": { 
+            "Ana": "src",
+            "UTF8": "src",
+            "AnaMigrations": "tests/migrations/tests/"
+        }
+	}
+}

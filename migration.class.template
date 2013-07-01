@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * Ana migration class.
+ *
+ * @created_at :createdAt
+ */
+class Migration_:className extends :extends
+{
+    public function up()
+    {
+        
+    }
+
+    public function down()
+    {
+
+    }
+}

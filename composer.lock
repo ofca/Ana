@@ -1,0 +1,41 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "bc42ce68ea7027ebfc1831fff056090b",
+    "packages": [
+        {
+            "name": "cabinet",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ofca/Cabinet",
+                "reference": "master"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "classes"
+                ]
+            },
+            "time": "2013-02-28 15:53:10"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "cabinet": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
