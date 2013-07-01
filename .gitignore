@@ -1,0 +1,3 @@
+*.sublime*
+vendor
+tests/migrations/tests/migrations/*.php
