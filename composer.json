@@ -28,8 +28,7 @@
     "autoload": {
 		"psr-0": { 
             "Ana": "src",
-            "UTF8": "src",
-            "AnaMigrations": "tests/migrations/tests/"
+            "UTF8": "src"
         }
 	}
 }
