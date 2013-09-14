@@ -528,12 +528,12 @@ class MigrationManager
         $database = $this->connectionConfig['database'];
 
         // Be sure database not exists
-        /*$conn
+        $conn
             ->schema()
             ->database($database)
             ->drop()
             ->ifExists()
-            ->execute();*/
+            ->execute();
 
         // Create database if not exists yet
         $conn
